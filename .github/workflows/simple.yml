@@ -51,6 +51,7 @@ jobs:
         - self-hosted
         - fork
         - macOS
+        - ARM64
         - ${{ matrix.labels }}
     steps:
       - name: Clone - PR

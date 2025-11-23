@@ -50,6 +50,7 @@ jobs:
       labels: 
         - self-hosted
         - fork
+        - macOS
         - ${{ matrix.labels }}
     steps:
       - name: Clone - PR
